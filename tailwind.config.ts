@@ -12,6 +12,9 @@ const config: Config = {
       backgroundImage: {
         home: "url('/bg-home.png')",
       },
+      animation: {
+        "spin-slow": "spin 5s linear infinite",
+      },
     },
   },
   plugins: [],
