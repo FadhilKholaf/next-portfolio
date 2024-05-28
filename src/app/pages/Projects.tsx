@@ -56,7 +56,7 @@ export default function Projects() {
           image="/projects/personal-web.png"
           title="Personal Website"
           description="Latest version of My personal website(static)"
-          github="https://github.com"
+          github="https://github.com/FadhilKholaf/next-portfolio"
         />
       </div>
     </section>
