@@ -20,7 +20,7 @@ export default function LinkButton({
       data-aos={dataAos}
       data-aos-delay={dataAosDelay}
       href={href}
-      className={`flex w-fit items-center p-2  text-sm transition duration-500 ease-in-out hover:-translate-y-2 lg:text-lg ${className}`}
+      className={`flex w-fit items-center p-2 text-sm transition duration-500 ease-in-out hover:-translate-y-2 lg:text-lg ${className}`}
     >
       {title}
     </Link>

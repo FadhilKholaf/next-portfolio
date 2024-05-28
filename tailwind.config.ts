@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -9,11 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        home: "url('/bg-home.png')",
+      fontSize: {
+        "mobile-sm": ["10px", "14px"],
       },
       animation: {
         "spin-slow": "spin 5s linear infinite",
+        "pulse-slow": "pulse 7s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
+      backgroundImage: {
+        "dark-sky": "url('/dark-sky.jpg')",
+      },
+      boxShadow: {
+        "inner-xl": "inset 0 25px 50px 0 rgb(0 0 0 / 0.05)",
       },
     },
   },
