@@ -17,7 +17,7 @@ export default function Projects() {
       className="relative flex min-h-screen w-full flex-col px-4 py-4 lg:px-20"
     >
       <Image
-        ref={Parallax(-25)}
+        ref={Parallax(-20)}
         loading="lazy"
         src="/dark-sky.png"
         alt="Dark Sky"
