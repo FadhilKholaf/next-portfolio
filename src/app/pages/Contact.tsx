@@ -29,7 +29,7 @@ export default function Contact() {
           dataAosDelay={200}
           dataAos="fade-up"
           href="https://linktr.ee/fadhilkholaf"
-          title="More"
+          title="Social Media"
           className="z-30 rounded-full bg-gradient-to-r from-[#FFD49C] to-[#7A87FB] px-4 py-[6px] font-medium text-black"
         />
       </div>
