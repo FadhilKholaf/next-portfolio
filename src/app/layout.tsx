@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className=" scroll-smooth bg-black ">
       <head>
-        <link rel="icon" href="/dummy.jpeg"></link>
+        <link rel="icon" href="/logo.svg"></link>
       </head>
       <body className={poppins.className}>
         <Suspense
