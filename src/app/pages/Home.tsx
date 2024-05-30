@@ -47,11 +47,11 @@ export default function Home() {
           Backend Developer | Programming Enthusiast
         </p>
         <div className="flex gap-5">
-          {/* <LinkButton
-            href="https://linktr.ee/fadhilkholaf"
+          <LinkButton
+            href="https://docs.google.com/document/d/1YiTeiRCyGrtfB01SgHnMxjhpKAOmkCD3ZiD5g91_GDc/edit?usp=sharing"
             title="Resume"
             className="z-10 rounded-full bg-gradient-to-r from-[#FFD49C] to-[#7A87FB] px-4 py-[6px] text-black "
-          /> */}
+          />
           <LinkButton
             href="https://www.linkedin.com/in/muhammad-fadhil-kholaf-7b1a7a270/"
             title="LinkedIn"
