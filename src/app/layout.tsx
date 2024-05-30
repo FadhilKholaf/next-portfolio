@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import AOSProvider from "@/providers/Aos";
 import { Parallax } from "@/providers/Parallax";
 import { Suspense } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const poppins = Poppins({ weight: "300", subsets: ["latin"] });
 
@@ -38,6 +39,7 @@ export default function RootLayout({
             </Parallax>
           </AOSProvider>
         </Suspense>
+        <SpeedInsights />
       </body>
     </html>
   );
