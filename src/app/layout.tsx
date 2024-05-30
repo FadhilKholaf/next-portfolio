@@ -12,6 +12,7 @@ const poppins = Poppins({ weight: "300", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Fadhil Kholaf",
   description: "Muhammad Fadhil Kholaf personal portfolio website",
+  keywords:["muhammad","fadhil","kholaf","muhammad fadhil kholaf","fadhil kholaf"]
 };
 
 export default function RootLayout({
